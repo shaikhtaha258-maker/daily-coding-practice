@@ -1,0 +1,15 @@
+st =''' On a quiet evening, a small boy
+ found an old pocket watch buried in the 
+ sand near the riverbank, its glass cracked 
+ but its ticking stubborn and alive. When he wound it,
+   the world around him slowed just enough for him to notice 
+   things he had always missed—the way the wind braided the grass,
+     the patience in his mother’s eyes, the courage hidden in his own chest.
+       He never told anyone about the watch, and one day it stopped for good, 
+       but by then he had learned its real gift: time was precious not because it 
+       could be controlled, 
+but because it could be truly seen.'''
+
+f=open("myfile.text","w")
+f.write(st)
+f.close()
